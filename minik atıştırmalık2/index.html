@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
   <meta http-equiv="X-UA-Compatible"content="imedge">
   <style>
     * {box-sizing: border-box;}
@@ -11,7 +11,18 @@
     .mySlides {display: none;}
     img {vertical-align: middle;}
     
-    /* Slideshow container */
+    /* kullanılan kaynaklar:
+    https://www.w3schools.com/howto/howto_js_read_more.asp
+    https://www.w3schools.com/howto/howto_js_slideshow.asp
+    genel anlamda wshoolu kulllandık .
+
+    https://www.trakyadokum.com.tr/
+    https://www.kalde.com/
+    https://www.firat.com/haberler-duyurular/tse-den-altin-odul
+    gibi kaynaklar yardım aldık .Özellikle wschooldan çok yardım aldık .
+    Bunun yanında footer kısmında bir siteden yardıım aldık .
+    https://www.w3schools.com/tags/tag_footer.asp
+    */
     .slideshow-container {
       max-width: 500px;
       position: relative;
@@ -101,13 +112,11 @@
       </li>
       <li><a href="#">Birimlerimiz</a>
       <ul>
-
-        <li><a href="ser.html">Sertifika</a></li> //kaldede bir iki tane sertifika ekleyebilir //
+        <li><a href="uretim.html">Üretim</a></li>
   
-        <li><a href="reklam.html">Reklam Videoları </a></li> // reklam videoları kısmıda bulunuyor//
+        <li><a href="paketleme.html">Paketleme ve Lojistik </a></li> 
   
-        <li><a href="bayi.html">Bayiler</a></li>  
-            //tek bir bayi var birimlerimizde üç tane alt başlık istiyor kafana göre değiştirirsin//
+        <li><a href="çevre.html">Çevre ve Sürdürülebilirlik</a></li>  
       </ul>
     </li>
       <li><a href="misyon.html">Misyon-Vizyon</a></li>
@@ -121,10 +130,12 @@
     <script src="app.js"></script>
 </body>
 <body>
+  <br>
+  <br>
+   
 
- 
   <div style="font-family:courier;">
-  <div style="color:#5f0000">
+  <div style="color:lightseagreen">
   
   
     <h2>Çok Satılanlar </h2> 
@@ -134,20 +145,21 @@
   
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="ppr_kuresel_vana_disi.jpg" style="width:100%">
-    <div class="text">PPR KÜRESEL VANA DİŞİ</div>
+  <a href="ppr10.html"  ><img src="ppr_boru-1.jpg" style="width:100%"></a>
+   
+    <div class="text">PPR 10 BORU</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="PVC-BORU.jpg" style="width:100%">
-    <div class="text">PVC-BORU BC TİPİ </div>
+   <a href="pvc-kada.html"><img src="pvc-kada.jpg" style="width:100%"></a> 
+    <div class="text">PVC-KADA </div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="dirsek_45.jpg" style="width:100%">
-    <div class="text">DİRSEK 45</div>
+    <a href="pvcu45dirsek.html"><img src="dirsek_45.jpg" style="width:100%"></a>
+    <div class="text">PVC-U DİRSEK 45</div>
   </div>
 
   </div>
@@ -158,8 +170,278 @@
     <span class="dot"></span> 
   </div>
   <br><br> 
+  <br>
+  <br>
+  
+<body>
  
-<section> </section>
+<br>
+
+
+<style>
+#more {display: none;}
+</style>
+</head>
+
+  <div class="header12">
+    <h2>Duyurular  </h2> 
+    <a href="duyuru.html"><button class="button88">Daha Fazla</button>
+    <style>
+      .button88 {
+        position: relative;
+        background-color: lightseagreen;
+        border: none;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .button88:after {
+        content: "";
+        background: #90EE90;
+        display: block;
+        position: absolute;
+        padding-top: 50%;
+        padding-left: 100%;
+        margin-left: -20px!important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+      }
+      
+      .button88:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+      }
+      </style>
+ 
+</div> 
+
+<div class="row12"> 
+   <a class="column12" style="background-color:#33383b; color:#f2f2f2"> <h3> Kalde “kalıcı” başarılarını sürdürüyor.</h3>
+  <p> İstanbul Sanayi Odası (İSO), 2020 yılı Türkiye’nin 500 büyük sanayi kuruluşu sonuçlarını açıkladı.<span id="dots">...</span><span id="more"> Geçen yıl 479. sırada bulunan Kalde, bu yıl istikrarlı büyümesinin göstergesi olarak, listede 420. sıradadır.  <img src="Iso_500.jpg" width="%10" height="150px"></span></p>
+  <button class="button44" onclick="myFunction()" id="myBtn">Read more</button>
+  <style>
+  .button44 {
+    position: relative;
+    background-color: lightseagreen;
+    border: none;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button44:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 50%;
+    padding-left: 100%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button44:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+</style>
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+    
+    </body>
+    </html>
+    
+  </a>
+
+   <a class="column12" style="background-color:#3a3f42; color:#f2f2f2"><h3>Kalite</h3>
+    <p> Yüksek kalite standartlarını karşılamak ve sürekliliğini sağlamak için en son modern kalite kontrol yöntemleri ve kalite yönetim sistemleri kullanılmaktadır.<span id="dots1">...</span><span id="more1"> Sahip olduğumuz uluslararası ürün kalite standartları ve kalite yönetim sistem sertifikalarından gelen sorumluluk ve yükümlülüklerin bilincinde olarak, tasarım aşamasından başlayarak son ürün elde edilinceye kadar yürütülen tüm üretim süreçleri özenle takip edilmektedir. Ürünler, süreç içerisinde ve süreçler arası geçişlerde, daha önce belirlenen kalite kontrol kriterlerine göre periyodik olarak sürekli kontrolden geçirilmektedir.</span></p>
+    <button class="button45" onclick="myFunction1()" id="myBtn1">Read more</button>
+    <style>
+    .button45 {
+      position: relative;
+      background-color: lightseagreen;
+      border: none;
+      font-size: 12px;
+      color: #FFFFFF;
+      padding: 10px;
+      width: 100px;
+      height: 50px;
+      text-align: center;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    .button45:after {
+      content: "";
+      background: #90EE90;
+      display: block;
+      position: absolute;
+      padding-top: 50%;
+      padding-left: 100%;
+      margin-left: -20px!important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    .button45:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+  </style>
+    <script>
+      function myFunction1() {
+        var dots = document.getElementById("dots1");
+        var moreText = document.getElementById("more1");
+        var btnText = document.getElementById("myBtn1");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      </script>
+      
+      </body>
+      </html>
+   </a>
+
+    <a  class="column12" style="background-color:#515a5f; color:#f2f2f2"> <h3> İnşaat</h3>
+      <p> İnşaat sektörünün farklı uygulamalarında kullanılmakta olan; kalıp bağlama aksesuarları, iskele parçaları ve konstrüktif boru bağlantı parçalarını uzun yıllardır, <span id="dots5">...</span><span id="more5"> zengin ürün çeşitliliği ile üreten sektörün lider konumundaki üretici firmasıyız. </span></p>
+      <button class="button77" onclick="myFunction5()" id="myBtn5">Read more</button>
+      <style>
+      .button77 {
+        position: relative;
+        background-color: lightseagreen;
+        border: none;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .button77:after {
+        content: "";
+        background: #90EE90;
+        display: block;
+        position: absolute;
+        padding-top: 50%;
+        padding-left: 100%;
+        margin-left: -20px!important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+      }
+      
+      .button77:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+      }
+    </style>
+      <script>
+        function myFunction5() {
+          var dots5 = document.getElementById("dots5");
+          var moreText = document.getElementById("more5");
+          var btnText = document.getElementById("myBtn5");
+        
+          if (dots5.style.display === "none") {
+            dots5.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots5.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+        
+        </body>
+        </html>
+        
+      </a>
+    
+</div>
+</div>
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+
+</body>
+</html>
+
 <footer class="footer-distributed">
   <div class="footer-left">
     <h3> Sezer İnşaat Hırdavat Malzemeleri</h3>
@@ -188,13 +470,18 @@
     <img src="email.png">
     <p><a href="melissaunsal10@gmail.com">melissaunsal10@gmail.com</a></p>
   </div>
+  </div>
   <div class="footer-right">
     <p class= "footer-hakkımızda">
     <span> Web Tasarımı Kurucuları</span>
-Melissa Ünsal, Tuse Bengil
+<p>Melissa Ünsal</p>
+  <p>Tuse Bengil</p>
   </p>
 <div class="footer-icons">
   <a href="http://www.linkedin.com/in/melissaunsal1/" target="_blank"><img src="linkedin.png"></a>
+  <a href="https://www.linkedin.com/in/tuse-bengil-6abaa9209/" target="_blank"><img src="linkedin.png"></a>
+  <a href="https://www.instagram.com/melissaunsall/" target="_blank"><img src="instagram(1).png"></a>
+  <a href="mailto:tusebengil@hotmail.com"><img src="gmail(1).png"></a> 
 
 </div>
   </div>
@@ -205,7 +492,7 @@ Melissa Ünsal, Tuse Bengil
 
 
     
-  <script>
+<script>
   var slideIndex = 0;
   showSlides();
   
@@ -229,5 +516,7 @@ Melissa Ünsal, Tuse Bengil
 
   </script>
   
+
   </body>
+  
 </html>

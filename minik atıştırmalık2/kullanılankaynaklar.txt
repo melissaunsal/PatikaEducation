@@ -1,0 +1,12 @@
+/* kullanılan kaynaklar:
+    https://www.w3schools.com/howto/howto_js_read_more.asp
+    https://www.w3schools.com/howto/howto_js_slideshow.asp
+    genel anlamda wshoolu kulllandık .
+
+    https://www.trakyadokum.com.tr/
+    https://www.kalde.com/
+    https://www.firat.com/haberler-duyurular/tse-den-altin-odul
+    gibi kaynaklar yardım aldık .Özellikle wschooldan çok yardım aldık .
+    Bunun yanında footer kısmında bir siteden yardıım aldık .
+    https://www.w3schools.com/tags/tag_footer.asp
+
